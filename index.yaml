@@ -1,0 +1,51 @@
+apiVersion: v1
+entries:
+  helm-chart-test:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-04-17T07:32:43.255642+03:00"
+    description: A Helm chart for Kubernetes
+    digest: ffbe425ac32d7e4bd70418b1ff2800130925a33ac67139e6d4637b5821480da1
+    name: helm-chart-test
+    urls:
+    - https://gitlabe2.ext.net.nokia.com/bumi/helm-chart/helm-chart-test-0.1.0.tgz
+    version: 0.1.0
+  spark:
+  - apiVersion: v1
+    appVersion: 1.5.1
+    created: "2020-04-17T07:32:43.258167+03:00"
+    description: Fast and general-purpose cluster computing system.
+    digest: ecd67742f46aba4008a5f15b1a660009e7edc05f5f954dff0b6a34d9f9ebca42
+    home: http://spark.apache.org
+    icon: http://spark.apache.org/images/spark-logo-trademark.png
+    maintainers:
+    - email: lachlan.evenson@gmail.com
+      name: lachie83
+    - email: 764524258@qq.com
+      name: daixiang0
+    name: spark
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/examples/spark
+    - https://github.com/apache/spark
+    urls:
+    - https://gitlabe2.ext.net.nokia.com/bumi/helm-chart/spark-1.0.3.tgz
+    version: 1.0.3
+  zeppelin:
+  - apiVersion: v1
+    appVersion: 0.7.2
+    created: "2020-04-17T07:32:43.259054+03:00"
+    description: Web-based notebook that enables data-driven, interactive data analytics
+      and collaborative documents with SQL, Scala and more.
+    digest: e7ba35091f0175f3004805197ae755eb88f590c53741d2ac8f07b57758900b65
+    home: https://zeppelin.apache.org/
+    icon: https://zeppelin.apache.org/assets/themes/zeppelin/img/zeppelin_classic_logo.png
+    maintainers:
+    - email: disla@google.com
+      name: danisla
+    name: zeppelin
+    sources:
+    - https://github.com/apache/zeppelin
+    urls:
+    - https://gitlabe2.ext.net.nokia.com/bumi/helm-chart/zeppelin-1.1.0.tgz
+    version: 1.1.0
+generated: "2020-04-17T07:32:43.252899+03:00"
