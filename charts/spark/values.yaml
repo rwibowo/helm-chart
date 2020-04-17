@@ -4,7 +4,7 @@
 # name: value
 
 Spark:
-  Path: "/spark"
+  Path: "/opt/spark"
 
 Master:
   Name: master

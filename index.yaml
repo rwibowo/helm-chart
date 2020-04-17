@@ -3,9 +3,9 @@ entries:
   helm-chart-test:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-17T17:11:30.071355+03:00"
+    created: "2020-04-17T17:33:00.757404+03:00"
     description: A Helm chart for Kubernetes
-    digest: 6b3a0d4aacb8edc2a925f021498c2634e8e2532605f2f52344f585419b52cea7
+    digest: 3f417bc457d45ade099f5ca15eac18902f853f949a5b18b4b1bc6352e5dd2e8a
     name: helm-chart-test
     urls:
     - https://rwibowo.github.io/helm-chart/helm-chart-test-0.1.0.tgz
@@ -13,7 +13,24 @@ entries:
   spark:
   - apiVersion: v1
     appVersion: 1.5.1
-    created: "2020-04-17T17:11:30.073302+03:00"
+    created: "2020-04-17T17:33:00.773544+03:00"
+    description: Fast and general-purpose cluster computing system.
+    digest: 8a0164d3cce5e5c4fd8749746ec5f564ed4a0247c34c3db4d2c01e247de26b91
+    home: http://spark.apache.org
+    icon: http://spark.apache.org/images/spark-logo-trademark.png
+    maintainers:
+    - email: riowibowo@yahoo.com
+      name: riowibowo
+    name: spark
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/examples/spark
+    - https://github.com/apache/spark
+    urls:
+    - https://rwibowo.github.io/helm-chart/spark-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v1
+    appVersion: 1.5.1
+    created: "2020-04-17T17:33:00.763181+03:00"
     description: Fast and general-purpose cluster computing system.
     digest: 7dbfddaedeea58ded578b02b2868cf46019d726b6af162ce41a2772a0f424215
     home: http://spark.apache.org
@@ -31,10 +48,10 @@ entries:
   zeppelin:
   - apiVersion: v1
     appVersion: 0.7.2
-    created: "2020-04-17T17:11:30.074009+03:00"
+    created: "2020-04-17T17:33:00.774411+03:00"
     description: Web-based notebook that enables data-driven, interactive data analytics
       and collaborative documents with SQL, Scala and more.
-    digest: a98f9341018b854aca272c65d24fdd726a7968a5f95747c0f85c260c3728ea74
+    digest: e0b72de6288e3ef2f0cb969a9309c4b527152588b99bdb481bac7e4f8c16d507
     home: https://zeppelin.apache.org/
     icon: https://zeppelin.apache.org/assets/themes/zeppelin/img/zeppelin_classic_logo.png
     maintainers:
@@ -46,4 +63,4 @@ entries:
     urls:
     - https://rwibowo.github.io/helm-chart/zeppelin-1.1.0.tgz
     version: 1.1.0
-generated: "2020-04-17T17:11:30.068983+03:00"
+generated: "2020-04-17T17:33:00.753556+03:00"
