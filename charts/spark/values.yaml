@@ -4,12 +4,12 @@
 # name: value
 
 Spark:
-  Path: "/opt/spark"
+  Path: "/spark"
 
 Master:
   Name: master
-  Image: "k8s.gcr.io/spark"
-  ImageTag: "1.5.1_v3"
+  Image: "riowibowo/spark"
+  ImageTag: "2.4.5"
   Replicas: 1
   Component: "spark-master"
   Cpu: "100m"
@@ -27,8 +27,8 @@ WebUi:
 
 Worker:
   Name: worker
-  Image: "k8s.gcr.io/spark"
-  ImageTag: "1.5.1_v3"
+  Image: "riowibowo/spark"
+  ImageTag: "2.4.5"
   Replicas: 3
   Component: "spark-worker"
   Cpu: "100m"
