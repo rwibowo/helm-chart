@@ -9,7 +9,5 @@ sources:
   - https://github.com/kubernetes/kubernetes/tree/master/examples/spark
   - https://github.com/apache/spark
 maintainers:
-  - name: lachie83
-    email: lachlan.evenson@gmail.com
-  - name: daixiang0
-    email: 764524258@qq.com
+  - name: riowibowo
+    email: riowibowo@yahoo.com
