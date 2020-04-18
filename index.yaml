@@ -3,9 +3,9 @@ entries:
   spark:
   - apiVersion: v1
     appVersion: 1.5.1
-    created: "2020-04-18T01:34:56.027611+03:00"
+    created: "2020-04-18T22:43:36.34085+03:00"
     description: Fast and general-purpose cluster computing system.
-    digest: f9c327a2c8e01ad9207ba6426ba229ed1956ea8d9ef4dac2340b6bd10e75e243
+    digest: 6e11da0ac94fde8282e0b392d091d6a0dc4b3b65c8295389db5428c0fdfbc233
     home: http://spark.apache.org
     icon: http://spark.apache.org/images/spark-logo-trademark.png
     maintainers:
@@ -20,7 +20,7 @@ entries:
     version: 1.0.4
   - apiVersion: v1
     appVersion: 1.5.1
-    created: "2020-04-18T01:34:56.026109+03:00"
+    created: "2020-04-18T22:43:36.340221+03:00"
     description: Fast and general-purpose cluster computing system.
     digest: 7dbfddaedeea58ded578b02b2868cf46019d726b6af162ce41a2772a0f424215
     home: http://spark.apache.org
@@ -38,10 +38,10 @@ entries:
   zeppelin:
   - apiVersion: v1
     appVersion: 0.7.2
-    created: "2020-04-18T01:34:56.028292+03:00"
+    created: "2020-04-18T22:43:36.341261+03:00"
     description: Web-based notebook that enables data-driven, interactive data analytics
       and collaborative documents with SQL, Scala and more.
-    digest: be10eaf4fc5f0cc4c928b4ded9a13becd3969b75846ef399482fb4aefb9e35b3
+    digest: 22b2475a9cd4e272b3de7d85d1b5727fa8f9b6acfbce34f4c6a334f55931433d
     home: https://zeppelin.apache.org/
     icon: https://zeppelin.apache.org/assets/themes/zeppelin/img/zeppelin_classic_logo.png
     maintainers:
@@ -53,4 +53,4 @@ entries:
     urls:
     - https://rwibowo.github.io/helm-chart/zeppelin-1.1.0.tgz
     version: 1.1.0
-generated: "2020-04-18T01:34:56.022531+03:00"
+generated: "2020-04-18T22:43:36.338269+03:00"
