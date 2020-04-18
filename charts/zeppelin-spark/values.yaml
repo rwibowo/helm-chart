@@ -46,7 +46,7 @@ Worker:
 Zeppelin:
   Name: zeppelin
   Image: "apache/zeppelin"
-  ImageTag: "0.7.3"
+  ImageTag: "0.9.0"
   Replicas: 1
   Component: "zeppelin"
   Cpu: "100m"
